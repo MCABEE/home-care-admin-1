@@ -5,7 +5,7 @@ export default function Topbar() {
     <header className="sticky top-0 z-30 flex h-20 items-center justify-between border-b border-[#e3e2e0] bg-[#faf9f6]/95 px-6 backdrop-blur-md lg:px-10">
       <div className="flex items-center gap-4">
         <span className="font-display hidden text-[29px] font-bold text-[#003629] md:block">
-          Tharavadu Care Admin
+          Marivia Nest Admin
         </span>
         <label className="relative hidden w-80 md:block">
           <Icon name="search" size={21} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[#53605b]" />

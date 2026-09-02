@@ -31,7 +31,7 @@ export default function LoginForm() {
         <label htmlFor="email" className="text-sm font-semibold text-[#1a1c1a]">Email Address</label>
         <div className="relative">
           <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-[#404945]">✉</span>
-          <input id="email" name="email" type="email" placeholder="admin@tharavaducare.com" required className={inputClassName} />
+          <input id="email" name="email" type="email" placeholder="admin@homecare.com" required className={inputClassName} />
         </div>
       </div>
 

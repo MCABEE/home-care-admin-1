@@ -5,7 +5,7 @@ export default function BrandHeader() {
         Secure Access
       </p>
       <h1 className="text-3xl font-semibold text-[#003629] sm:text-4xl">
-        Tharavadu Care
+        Marivia Nest
       </h1>
       <p className="mt-2 text-sm font-medium text-[#404945]">
         Administrator Panel

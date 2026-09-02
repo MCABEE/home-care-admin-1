@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tharavadu Care Admin",
-  description: "Secure administrator login experience for Tharavadu Care",
+  title: "Marivia Nest Admin",
+  description: "Secure administrator login experience for Marivia Nest",
 };
 
 export default function RootLayout({ children }) {
