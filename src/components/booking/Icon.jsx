@@ -11,6 +11,8 @@ export default function Icon({ name, size = 20, className = "" }) {
     help: <><circle cx="12" cy="12" r="9" /><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1.5 1-1.5 2-1.5 3M12 17h.01" /></>,
     filter: <path d="M4 6h16M7 12h10M10 18h4" />,
     plane: <path d="m3 11 18-6-6 18-3-8-9-4Z" />,
+    chevron: <path d="m6 9 6 6 6-6" />,
+    check: <path d="M20 6 9 17l-5-5" />,
     dots: <><circle cx="12" cy="5" r="1" fill="currentColor" /><circle cx="12" cy="12" r="1" fill="currentColor" /><circle cx="12" cy="19" r="1" fill="currentColor" /></>,
   };
   return <svg aria-hidden="true" className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">{paths[name]}</svg>;
